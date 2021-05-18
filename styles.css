@@ -257,3 +257,24 @@ li {
   padding: 5px 18px;
   font-size: 14px;
 }
+
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:hover {
+  color: #8e8e8e;
+}
+
+a.text-link:link,
+a.text-link:visited,
+a.text-link:hover,
+a.text-link:active,
+a.text-link:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+a.text-link:hover {
+  color: #444444;
+}
